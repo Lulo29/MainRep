@@ -1,0 +1,772 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.897);
+  font-weight: 100;
+}
+
+.container_mere {
+  display: flex;
+  gap: 2rem;
+  margin: 3.3rem;
+  border: 0.2rem solid rgba(0, 0, 0, 0.212);
+  border-radius: 4.3rem;
+  background-color: rgba(0, 0, 0, 0.788);
+  color: white;
+}
+.container_mere .logo_menu .liste_logo {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.336);
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.247);
+  border-top-left-radius: 3.9rem;
+  border-bottom-left-radius: 3.9rem;
+  height: 70%;
+  padding: 14.5rem 2rem 0 2rem;
+  gap: 4rem;
+}
+.container_mere .logo_menu .liste_logo .liste_one {
+  list-style-type: none;
+}
+.container_mere .logo_menu .liste_logo .liste_one i {
+  font-size: 2rem;
+}
+.container_mere .container_1 .element_absolute {
+  display: flex;
+  justify-content: space-between;
+  z-index: 3;
+  padding-bottom: 10rem;
+}
+.container_mere .container_1 .element_absolute .ensemble {
+  display: flex;
+}
+.container_mere .container_1 .element_absolute .skin .tritre1 .titre_01 {
+  padding: 1rem 1rem 0 0;
+  text-align: left;
+  width: 12rem;
+  font-size: 1.5rem;
+}
+.container_mere .container_1 .element_absolute .skin .image_abslolute {
+  position: relative;
+}
+.container_mere .container_1 .element_absolute .skin .image_abslolute .image_image5 {
+  position: absolute;
+  height: 53.5rem;
+  top: -8rem;
+  z-index: 0;
+}
+.container_mere .container_1 .element_absolute .element_skin {
+  margin-left: 35rem;
+  padding-top: 1rem;
+}
+.container_mere .container_1 .element_absolute .element_skin i {
+  font-size: 1rem;
+  color: rgb(93, 182, 233);
+}
+.container_mere .container_1 .element_absolute .element_skin .recherche .reacher {
+  border-radius: 1rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.144);
+  width: 95%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+.container_mere .container_1 .element_absolute .element_skin .recherche .reacher input {
+  width: 90%;
+  height: 100%;
+  border: none;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  background-color: rgba(59, 77, 117, 0.247);
+}
+.container_mere .container_1 .element_absolute .element_skin .recherche .reacher i {
+  font-size: 1.5rem;
+  padding: 0 1rem 0 1rem;
+}
+.container_mere .container_1 .element_absolute .element_skin .team_skin {
+  padding: 0.5rem 0 0.5rem 0;
+  font-size: 1rem;
+}
+.container_mere .container_1 .element_absolute .element_skin .image_type {
+  display: flex;
+  justify-content: left;
+  gap: 1rem;
+}
+.container_mere .container_1 .element_absolute .element_skin .image_type .image_type1 {
+  height: 13rem;
+  width: 13rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.container_mere .container_1 .element_absolute .element_skin .image_type .image_type1 .image01 {
+  z-index: 0;
+  position: relative;
+  margin-bottom: 1rem;
+  height: 12rem;
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.247);
+  border-radius: 1rem;
+}
+.container_mere .container_1 .element_absolute .element_skin .image_type .image_type1 .image01 .image_imag {
+  position: absolute;
+  z-index: -1;
+  height: 13rem;
+  top: -1rem;
+  left: 2.9rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 0.9rem;
+}
+.container_mere .container_1 .element_absolute .element_skin .image_type .image_type1 .image01 .info_preso {
+  z-index: 1;
+  padding: 9rem 0 0 0;
+}
+.container_mere .container_1 .element_absolute .element_skin .image_type .image_type1 .image01 .info_preso .place {
+  width: 13rem;
+  text-align: center;
+  border-radius: 1rem;
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.247);
+}
+.container_mere .container_1 .element_absolute .element_skin .image_type .image_type1 .image01 .info_preso .place .Name {
+  font-size: 1.5rem;
+}
+.container_mere .container_1 .element_absolute .element_skin .image_type .image_type1 .image02 {
+  z-index: 0;
+  position: relative;
+  height: 12rem;
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.247);
+  border-radius: 1rem;
+}
+.container_mere .container_1 .element_absolute .element_skin .image_type .image_type1 .image02 .image_imag {
+  position: absolute;
+  z-index: -1;
+  height: 13rem;
+  top: -1rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 0.9rem;
+}
+.container_mere .container_1 .element_absolute .element_skin .image_type .image_type1 .image02 .info_preso {
+  z-index: 1;
+  padding: 9rem 0 0 0;
+}
+.container_mere .container_1 .element_absolute .element_skin .image_type .image_type1 .image02 .info_preso .place {
+  width: 13rem;
+  text-align: center;
+  border-radius: 1rem;
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.247);
+}
+.container_mere .container_1 .element_absolute .element_skin .image_type .image_type1 .image02 .info_preso .place .Name {
+  font-size: 1.5rem;
+}
+.container_mere .container_1 .element_absolute .element_skin .image_type .image_type1 .image02 .info_preso .place i {
+  font-size: 1rem;
+}
+.container_mere .container_1 .element_absolute .element_skin .image_type .image_type1 .image03 {
+  z-index: 0;
+  position: relative;
+  margin-bottom: 1rem;
+  height: 12rem;
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.247);
+  border-radius: 1rem;
+}
+.container_mere .container_1 .element_absolute .element_skin .image_type .image_type1 .image03 .image_imag {
+  position: absolute;
+  z-index: -1;
+  height: 13rem;
+  top: -1rem;
+  left: 1.5rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 0.9rem;
+}
+.container_mere .container_1 .element_absolute .element_skin .image_type .image_type1 .image03 .info_preso {
+  z-index: 1;
+  padding: 9rem 0 0 0;
+}
+.container_mere .container_1 .element_absolute .element_skin .image_type .image_type1 .image03 .info_preso .place {
+  width: 13rem;
+  text-align: center;
+  border-radius: 1rem;
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.247);
+}
+.container_mere .container_1 .element_absolute .element_skin .image_type .image_type1 .image03 .info_preso .place .Name {
+  font-size: 1.5rem;
+}
+.container_mere .container_1 .element_absolute .element_skin .image_type .image_type1 .image03 .info_preso .place i {
+  font-size: 1rem;
+}
+.container_mere .container_1 .element_absolute .element_skin .image_type .image_type1 .image04 {
+  z-index: 0;
+  position: relative;
+  height: 12rem;
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.247);
+  border-radius: 1rem;
+}
+.container_mere .container_1 .element_absolute .element_skin .image_type .image_type1 .image04 .image_imag {
+  position: absolute;
+  z-index: -1;
+  height: 13rem;
+  top: -1rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 0.9rem;
+}
+.container_mere .container_1 .element_absolute .element_skin .image_type .image_type1 .image04 .info_preso {
+  z-index: 1;
+  padding: 9rem 0 0 0;
+}
+.container_mere .container_1 .element_absolute .element_skin .image_type .image_type1 .image04 .info_preso .place {
+  width: 13rem;
+  text-align: center;
+  border-radius: 1rem;
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.247);
+}
+.container_mere .container_1 .element_absolute .element_skin .image_type .image_type1 .image04 .info_preso .place .Name {
+  font-size: 1.5rem;
+}
+.container_mere .container_1 .element_absolute .element_skin .image_type .image_type1 .image04 .info_preso .place i {
+  font-size: 1rem;
+}
+.container_mere .container_1 .barre_menu {
+  z-index: 4;
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.247);
+  border-radius: 3rem;
+  padding: 1.5rem 1rem 1.5rem 1rem;
+  margin-top: 3rem;
+  width: 97%;
+}
+.container_mere .container_1 .barre_menu .sous_titre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 0 3rem 1rem 3rem;
+}
+.container_mere .container_1 .barre_menu .sous_titre .sous_title_01 {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.container_mere .container_1 .barre_menu .sous_titre .sous_title_01 .title_01 {
+  font-size: 1.5rem;
+}
+.container_mere .container_1 .barre_menu .sous_titre .sous_title_01 .logo1 {
+  color: rgb(50, 112, 247);
+}
+.container_mere .container_1 .barre_menu .sous_titre .boutton_01 button {
+  padding: 0.6rem 3rem 0.6rem 3rem;
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgb(50, 112, 247);
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 1.5rem;
+}
+.container_mere .container_1 .barre_menu .info_plus {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3rem 0 3rem;
+  gap: 2rem;
+  text-align: center;
+}
+.container_mere .container_1 .barre_menu .info_plus .list_1 .liste1 {
+  list-style-type: none;
+  padding-bottom: 0.5rem;
+  color: rgb(50, 112, 247);
+}
+.container_mere .container_1 .barre_menu .info_plus .list_1 .liste {
+  list-style-type: none;
+}
+.container_mere .login {
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.247);
+  padding: 2rem;
+  width: 100%;
+  border-top-right-radius: 4rem;
+  border-bottom-right-radius: 4rem;
+}
+.container_mere .login .profil {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem 1rem 2rem;
+}
+.container_mere .login .profil .tritr_2 .profil1 {
+  font-size: 1.5rem;
+}
+.container_mere .login .profil .window .fa-windows {
+  font-size: 1.5rem;
+}
+.container_mere .login .photos .containe_photo {
+  padding: 1.5rem 0 1.5rem 8rem;
+}
+.container_mere .login .photos .containe_photo .color .photo1 {
+  height: 6rem;
+  border-radius: 6rem;
+  border: 0.4rem solid rgb(93, 182, 233);
+  border-left: 0.4rem solid rgba(59, 77, 117, 0);
+  border-bottom: 0.4rem solid rgba(59, 77, 117, 0);
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.247);
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.container_mere .login .photos .name {
+  text-align: center;
+  font-size: 1rem;
+  padding-bottom: 1.5rem;
+}
+.container_mere .login .photos .niveau {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem 1rem 2rem;
+  text-align: center;
+}
+.container_mere .login .nivjoueur .logo_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem 1rem 2rem;
+}
+.container_mere .login .nivjoueur i {
+  font-size: 1.5rem;
+}
+.container_mere .login .select .payment {
+  font-size: 1.2rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.container_mere .login .select .logopayment {
+  text-align: center;
+  font-size: 1.8rem;
+}
+.container_mere .login .select .logopayment i {
+  border: 0.1rem solid rgb(3, 108, 134);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.division_1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem 0 4rem;
+  margin: 3.3rem;
+}
+.division_1 .login {
+  margin-right: 10rem;
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.527);
+  border-radius: 4rem;
+  width: 22.6%;
+  box-shadow: 0rem 0.5rem 1.5rem 0.5rem;
+}
+.division_1 .login .profil {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2rem 1rem 2rem;
+  color: white;
+}
+.division_1 .login .profil .tritr_2 .profil1 {
+  font-size: 1.5rem;
+}
+.division_1 .login .profil .window .fa-windows {
+  font-size: 1.5rem;
+}
+.division_1 .login .photos .containe_photo {
+  padding: 1.5rem 0 1.5rem 8rem;
+}
+.division_1 .login .photos .containe_photo .color .photo1 {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 6rem;
+  border: 0.4rem solid rgb(93, 182, 233);
+  border-left: 0.4rem solid rgba(59, 77, 117, 0);
+  border-bottom: 0.4rem solid rgba(59, 77, 117, 0);
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.247);
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.division_1 .login .photos .name {
+  text-align: center;
+  font-size: 1rem;
+  padding-bottom: 1.5rem;
+  color: white;
+}
+.division_1 .login .photos .niveau {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem 1rem 2rem;
+  text-align: center;
+  color: white;
+}
+.division_1 .login .nivjoueur .logo_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem 1rem 2rem;
+  color: white;
+}
+.division_1 .login .nivjoueur i {
+  font-size: 1.5rem;
+}
+.division_1 .login .logo_menu {
+  text-align: center;
+  color: white;
+}
+.division_1 .login .logo_menu .liste_logo {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.247);
+  border-bottom-right-radius: 4rem;
+  border-bottom-left-radius: 4rem;
+}
+.division_1 .login .logo_menu .liste_logo .liste_one {
+  list-style-type: none;
+}
+.division_1 .login .logo_menu .liste_logo .liste_one i {
+  font-size: 2rem;
+  padding: 1rem 2rem 1rem 2rem;
+}
+.division_1 .image_profile {
+  width: 23.6%;
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.534);
+  border-radius: 4rem;
+  margin-right: 8rem;
+  box-shadow: 0rem 0.5rem 1.5rem 0.5rem;
+  z-index: 0;
+}
+.division_1 .image_profile .absolute_1 {
+  width: 20rem;
+  margin-bottom: 20rem;
+  padding: 4rem;
+}
+.division_1 .image_profile .absolute_1 .absolute_11 {
+  position: absolute;
+  top: -12rem;
+  right: 0.5rem;
+  height: 55rem;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  z-index: -1;
+}
+.division_1 .image_profile .informa_skin {
+  color: white;
+  z-index: 3;
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.534);
+  border-radius: 4rem;
+}
+.division_1 .image_profile .informa_skin .ligne {
+  padding: 1rem 0 1.5rem 11rem;
+}
+.division_1 .image_profile .informa_skin .ligne .ligne_v {
+  border: 0.1rem solid white;
+  width: 4rem;
+}
+.division_1 .image_profile .informa_skin .texte_00 {
+  text-align: center;
+}
+.division_1 .image_profile .informa_skin .texte_00 .text {
+  font-size: 1.5rem;
+}
+.division_1 .image_profile .informa_skin .texte_00 .star {
+  font-size: 0.8rem;
+  color: boutton;
+}
+.division_1 .image_profile .paragraphe {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 3.5rem 1.3rem 3.5rem;
+  color: white;
+}
+.division_1 .image_profile .paragraphe .premier .liste .lettre1 {
+  color: rgb(93, 182, 233);
+  list-style-type: none;
+}
+.division_1 .image_profile .paragraphe .premier .liste .lettre {
+  list-style-type: none;
+}
+.division_1 .image_profile .boutton1 {
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+.division_1 .image_profile .boutton1 .boutton {
+  text-align: center;
+  background-color: rgb(93, 182, 233);
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border-radius: 1rem;
+  color: white;
+}
+.division_1 .element_skin {
+  width: 23.6%;
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.534);
+  border-radius: 4rem;
+  box-shadow: 0rem 0.5rem 1.5rem 0.5rem;
+}
+.division_1 .element_skin .Titre11 {
+  padding: 1rem 0 1rem 0;
+  margin-left: 3rem;
+}
+.division_1 .element_skin .Titre11 .titre_09 {
+  font-size: 1.7rem;
+  color: white;
+}
+.division_1 .element_skin .recherche {
+  margin-left: 1rem;
+}
+.division_1 .element_skin .recherche .reacher {
+  border-radius: 1rem;
+  border: 0.1rem solid rgba(255, 249, 249, 0.144);
+  width: 95%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+.division_1 .element_skin .recherche .reacher input {
+  width: 90%;
+  height: 100%;
+  border: none;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  background-color: rgba(59, 77, 117, 0.247);
+}
+.division_1 .element_skin .recherche .reacher i {
+  font-size: 1.5rem;
+  padding: 0 1rem 0 1rem;
+  color: white;
+}
+.division_1 .element_skin .team_skin {
+  padding: 1rem 0 1rem 0;
+  margin-left: 1rem;
+  font-size: 1rem;
+  color: white;
+}
+.division_1 .element_skin .image_type {
+  display: flex;
+  justify-content: left;
+  gap: 1rem;
+  margin-bottom: 15rem;
+  color: white;
+}
+.division_1 .element_skin .image_type .image_type1 {
+  height: 13rem;
+  width: 13rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.division_1 .element_skin .image_type .image_type1 .image01 {
+  z-index: 0;
+  position: relative;
+  margin-bottom: 1rem;
+  height: 12rem;
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.247);
+  border-radius: 1rem;
+}
+.division_1 .element_skin .image_type .image_type1 .image01 .image_imag {
+  position: absolute;
+  z-index: -1;
+  height: 13rem;
+  top: -1rem;
+  left: 2.9rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 0.9rem;
+}
+.division_1 .element_skin .image_type .image_type1 .image01 .info_preso {
+  z-index: 1;
+  padding: 9rem 0 0 0;
+}
+.division_1 .element_skin .image_type .image_type1 .image01 .info_preso .place {
+  width: 13rem;
+  text-align: center;
+  border-radius: 1rem;
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.247);
+}
+.division_1 .element_skin .image_type .image_type1 .image01 .info_preso .place .Name {
+  font-size: 1.5rem;
+}
+.division_1 .element_skin .image_type .image_type1 .image01 .info_preso .place i {
+  font-size: 1rem;
+  color: rgb(93, 182, 233);
+}
+.division_1 .element_skin .image_type .image_type1 .image02 {
+  z-index: 0;
+  position: relative;
+  height: 12rem;
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.247);
+  border-radius: 1rem;
+}
+.division_1 .element_skin .image_type .image_type1 .image02 .image_imag {
+  position: absolute;
+  z-index: -1;
+  height: 13rem;
+  top: -1rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 0.9rem;
+}
+.division_1 .element_skin .image_type .image_type1 .image02 .info_preso {
+  z-index: 1;
+  padding: 9rem 0 0 0;
+}
+.division_1 .element_skin .image_type .image_type1 .image02 .info_preso .place {
+  width: 13rem;
+  text-align: center;
+  border-radius: 1rem;
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.247);
+}
+.division_1 .element_skin .image_type .image_type1 .image02 .info_preso .place .Name {
+  font-size: 1.5rem;
+}
+.division_1 .element_skin .image_type .image_type1 .image02 .info_preso .place i {
+  font-size: 1rem;
+  color: rgb(93, 182, 233);
+}
+.division_1 .element_skin .image_type .image_type1 .image03 {
+  z-index: 0;
+  position: relative;
+  margin-bottom: 1rem;
+  height: 12rem;
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.247);
+  border-radius: 1rem;
+}
+.division_1 .element_skin .image_type .image_type1 .image03 .image_imag {
+  position: absolute;
+  z-index: -1;
+  height: 13rem;
+  top: -1rem;
+  left: 1.5rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 0.9rem;
+}
+.division_1 .element_skin .image_type .image_type1 .image03 .info_preso {
+  z-index: 1;
+  padding: 9rem 0 0 0;
+}
+.division_1 .element_skin .image_type .image_type1 .image03 .info_preso .place {
+  width: 13rem;
+  text-align: center;
+  border-radius: 1rem;
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.247);
+}
+.division_1 .element_skin .image_type .image_type1 .image03 .info_preso .place .Name {
+  font-size: 1.5rem;
+}
+.division_1 .element_skin .image_type .image_type1 .image03 .info_preso .place i {
+  font-size: 1rem;
+  color: rgb(93, 182, 233);
+}
+.division_1 .element_skin .image_type .image_type1 .image04 {
+  z-index: 0;
+  position: relative;
+  height: 12rem;
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.247);
+  border-radius: 1rem;
+}
+.division_1 .element_skin .image_type .image_type1 .image04 .image_imag {
+  position: absolute;
+  z-index: -1;
+  height: 13rem;
+  top: -1rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 0.9rem;
+}
+.division_1 .element_skin .image_type .image_type1 .image04 .info_preso {
+  z-index: 1;
+  padding: 9rem 0 0 0;
+}
+.division_1 .element_skin .image_type .image_type1 .image04 .info_preso .place {
+  width: 13rem;
+  text-align: center;
+  border-radius: 1rem;
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.247);
+}
+.division_1 .element_skin .image_type .image_type1 .image04 .info_preso .place .Name {
+  font-size: 1.5rem;
+}
+.division_1 .element_skin .image_type .image_type1 .image04 .info_preso .place i {
+  font-size: 1rem;
+  color: rgb(93, 182, 233);
+}
+.division_1 .element_skin .logo_menu {
+  text-align: center;
+  color: white;
+}
+.division_1 .element_skin .logo_menu .liste_logo {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(59, 77, 117, 0.247);
+  border-bottom-right-radius: 4rem;
+  border-bottom-left-radius: 4rem;
+}
+.division_1 .element_skin .logo_menu .liste_logo .liste_one {
+  list-style-type: none;
+}
+.division_1 .element_skin .logo_menu .liste_logo .liste_one i {
+  font-size: 2rem;
+  padding: 1rem 2rem 1.6rem 2rem;
+}/*# sourceMappingURL=main.css.map */

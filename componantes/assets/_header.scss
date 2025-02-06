@@ -1,0 +1,386 @@
+body{
+    backdrop-filter: blur(10px) brightness(80%);
+    background: rgba(59, 77, 117, 0.897);
+    font-weight: 100;
+
+}
+.container_mere{
+    display: flex;
+    gap: 2rem;
+    margin: 3.3rem  ;
+    border: 0.2rem solid rgba(0, 0, 0, 0.212);
+    border-radius: 4.3rem;
+    background-color: rgba(0, 0, 0, 0.788);
+    // background-image: url(/componantes/images/peter-gargiulo-cGNCepznaV8-unsplash.jpg);
+    color: white;
+
+    .logo_menu{
+        .liste_logo{
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(0, 0, 0, 0.336);
+            backdrop-filter: blur(10px) brightness(80%);
+            background: rgba(59, 77, 117, 0.247);
+            border-top-left-radius: 3.9rem;
+            border-bottom-left-radius: 3.9rem;
+            height:70%;
+            padding: 14.5rem 2rem 0 2rem;
+            gap: 4rem;
+            .liste_one{
+                list-style-type: none;
+                i{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+    .container_1{
+        .element_absolute{
+            display: flex;
+            justify-content: space-between;
+            z-index: 3;
+            padding-bottom: 10rem;
+
+            .ensemble{
+                display: flex;
+            }
+    
+            .skin{
+                .tritre1{
+                    .titre_01{
+                        padding: 1rem 1rem 0 0;
+                        text-align: left ;
+                        width: 12rem;
+                        font-size: 1.5rem;
+                    }
+                }
+                .image_abslolute{
+                    position: relative;
+                    .image_image5{
+                        position: absolute;
+                        height: 53.5rem;
+                        top: -8rem;
+                        z-index: 0;
+                    }
+                }
+            }
+            .element_skin{
+                margin-left: 35rem;
+                padding-top: 1rem;
+                i{
+                    font-size: 1rem;
+                    color: rgb(93, 182, 233);
+                }
+                .recherche{
+                    .reacher{
+                        border-radius: 1rem;
+                        border: 0.1rem solid rgba(0, 0, 0, 0.144);
+                        width: 95%;
+                        height: 3rem;
+                        display: flex;
+                        align-items: center;
+                        input{
+                            width: 90%;
+                            height: 100%;
+                            border: none;
+                            border-top-left-radius: 1rem;
+                            border-bottom-left-radius: 1rem;
+                            background-color: rgba(59, 77, 117, 0.247);
+                        }
+                        i{
+                            font-size: 1.5rem;
+                            padding: 0 1rem 0 1rem;
+                        }
+                    }
+               
+                }
+                .team_skin{
+                    padding: 0.5rem 0 0.5rem 0;
+                    font-size: 1rem;
+                }
+                .image_type{
+                    display: flex;
+                    justify-content: left;
+                    gap:1rem;
+                   .image_type1{
+                    height: 13rem;
+                    width: 13rem;
+                    object-fit: contain;
+                    .image01{
+                        z-index: 0;
+                        position: relative;
+                        margin-bottom: 1rem;
+                        height: 12rem;
+                        backdrop-filter: blur(10px) brightness(80%);
+                        background: rgba(59, 77, 117, 0.247);
+                        border-radius: 1rem;
+                        .image_imag{
+                            position: absolute;
+                            z-index:-1;
+                            height: 13rem;
+                            top: -1rem;
+                            left: 2.9rem;
+                            object-fit: contain;
+                            border-radius: 0.9rem;
+                        }
+                        .info_preso{
+                            z-index:1;
+                            padding: 9rem 0 0 0  ;
+                            .place{
+                                width:13rem;
+                                text-align: center;
+                                border-radius: 1rem;
+                                backdrop-filter: blur(10px) brightness(80%);
+                                background: rgba(59, 77, 117, 0.247);
+                                .Name{
+                                    font-size: 1.5rem;
+                                }
+                            }
+                        }
+
+                    }
+                    .image02{
+                        z-index: 0;
+                        position: relative;
+                        height: 12rem;
+                        backdrop-filter: blur(10px) brightness(80%);
+                        background: rgba(59, 77, 117, 0.247);
+                        border-radius: 1rem;
+                        .image_imag{
+                            position: absolute;
+                            z-index:-1;
+                            height: 13rem;
+                            top: -1rem;
+                            object-fit: contain;
+                            border-radius: 0.9rem;
+                        }
+                        .info_preso{
+                            z-index:1;
+                            padding: 9rem 0 0 0  ;
+                            .place{
+                                width:13rem;
+                                text-align: center;
+                                border-radius: 1rem;
+                                backdrop-filter: blur(10px) brightness(80%);
+                                background: rgba(59, 77, 117, 0.247);
+                                .Name{
+                                    font-size: 1.5rem;
+                                }
+                                i{
+                                    font-size: 1rem;
+                                }
+                            }
+                        }
+
+                    }
+                    .image03{
+                        z-index: 0;
+                        position: relative;
+                        margin-bottom: 1rem;
+                        height: 12rem;
+                        backdrop-filter: blur(10px) brightness(80%);
+                        background: rgba(59, 77, 117, 0.247);
+                        border-radius: 1rem;
+                        .image_imag{
+                            position: absolute;
+                            z-index:-1;
+                            height: 13rem;
+                            top: -1rem;
+                            left: 1.5rem;
+                            object-fit: contain;
+                            border-radius: 0.9rem;
+                        }
+                        .info_preso{
+                            z-index:1;
+                            padding: 9rem 0 0 0  ;
+                            .place{
+                                width:13rem;
+                                text-align: center;
+                                border-radius: 1rem;
+                                backdrop-filter: blur(10px) brightness(80%);
+                                background: rgba(59, 77, 117, 0.247);
+                                .Name{
+                                    font-size: 1.5rem;
+                                }
+                                i{
+                                    font-size: 1rem;
+                                }
+                            }
+                        }
+
+                    }
+                    .image04{
+                        z-index: 0;
+                        position: relative;
+                        height: 12rem;
+                        backdrop-filter: blur(10px) brightness(80%);
+                        background: rgba(59, 77, 117, 0.247);
+                        border-radius: 1rem;
+                        .image_imag{
+                            position: absolute;
+                            z-index:-1;
+                            height: 13rem;
+                            top: -1rem;
+                            object-fit: contain;
+                            border-radius: 0.9rem;
+                        }
+                        .info_preso{
+                            z-index:1;
+                            padding: 9rem 0 0 0  ;
+                            .place{
+                                width:13rem;
+                                text-align: center;
+                                border-radius: 1rem;
+                                backdrop-filter: blur(10px) brightness(80%);
+                                background: rgba(59, 77, 117, 0.247);
+                                .Name{
+                                    font-size: 1.5rem;
+                                }
+                                i{
+                                    font-size: 1rem;
+                                }
+                            }
+                        }
+
+                    }
+                   }
+
+                }
+            }
+        }
+        .barre_menu{
+            z-index: 4;
+            backdrop-filter: blur(10px) brightness(80%);
+            background: rgba(59, 77, 117, 0.247);
+            border-radius: 3rem;
+            padding: 1.5rem 1rem 1.5rem 1rem;
+            margin-top: 3rem;
+            width: 97%;
+            .sous_titre{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 2rem;
+                padding: 0 3rem 1rem 3rem;
+                .sous_title_01{
+                    display: flex;
+                    align-items: center;
+                    gap: 2rem;
+                    .title_01{
+                        font-size: 1.5rem;
+                    }
+                    .logo1{
+                        color: rgb(50, 112, 247);
+                    }
+                }
+                .boutton_01{
+                    button{
+                        padding: 0.6rem 3rem 0.6rem 3rem;
+                        backdrop-filter: blur(10px) brightness(80%);
+                        background:  rgb(50, 112, 247);;
+                        font-size: 1.5rem;
+                        color: white;
+                        border-radius: 1.5rem;
+                    }
+                }
+            }
+            .info_plus{
+                display: flex;
+                justify-content: space-between;
+                padding: 0 3rem 0 3rem;
+                gap: 2rem;
+                text-align: center;
+                .list_1{
+                    .liste1{
+                        list-style-type: none;
+                        padding-bottom: 0.5rem;
+                        color:  rgb(50, 112, 247);;
+                    }
+                    .liste{
+                        list-style-type: none;
+                    }
+                }
+            }
+        }
+    }
+    .login{
+        backdrop-filter: blur(10px) brightness(80%);
+        background: rgba(59, 77, 117, 0.247);
+        padding: 2rem;
+        width: 100%;
+        border-top-right-radius: 4rem;
+        border-bottom-right-radius: 4rem;
+        .profil{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0rem 2rem 1rem 2rem;
+            .tritr_2{
+                .profil1{
+                    font-size: 1.5rem;
+                }
+            }
+            .window{
+                .fa-windows{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        .photos{
+           .containe_photo{
+             padding :1.5rem  0 1.5rem 8rem;
+             .color{
+                .photo1{
+                    height: 6rem;
+                    border-radius: 6rem;
+                    border: 0.4rem solid rgb(93, 182, 233);
+                    border-left: 0.4rem solid rgba(59, 77, 117, 0);
+                    border-bottom: 0.4rem solid rgba(59, 77, 117, 0);
+                    backdrop-filter: blur(10px) brightness(80%);
+                    background: rgba(59, 77, 117, 0.247);
+                    object-fit: contain;
+                    }
+             }
+           }
+           .name{
+            text-align: center;
+            font-size: 1rem;
+            padding-bottom: 1.5rem;
+           }
+           .niveau{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem 1rem 2rem;
+            text-align: center;
+           }
+        }
+        .nivjoueur{
+                .logo_info{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 1rem 2rem 1rem 2rem;
+            }
+                i{
+                    font-size: 1.5rem;
+            }
+        }
+        .select{
+            .payment{
+                font-size: 1.2rem;
+                text-align: center;
+                padding-bottom: 1rem;
+            }
+            .logopayment{
+                text-align: center;
+                font-size: 1.8rem;
+                i{
+                    border: 0.1rem solid  rgb(3, 108, 134);
+                    padding: 1rem;
+                    border-radius: 1rem;
+                }
+            }
+        }
+    }
+}

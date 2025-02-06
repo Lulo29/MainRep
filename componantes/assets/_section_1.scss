@@ -1,0 +1,410 @@
+.division_1{
+    display: flex;
+    justify-content: space-between;
+    padding:0 4rem 0 4rem ;
+    margin: 3.3rem;
+
+    .login{
+        margin-right: 10rem;
+        backdrop-filter: blur(10px) brightness(80%);
+        background: rgba(59, 77, 117, 0.527);
+        border-radius: 4rem;
+        width: 22.6%;
+        box-shadow: 0rem 0.5rem 1.5rem 0.5rem ;
+        .profil{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 3rem 2rem 1rem 2rem;
+            color: white;
+            .tritr_2{
+                .profil1{
+                    font-size: 1.5rem;
+                }
+            }
+            .window{
+                .fa-windows{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        .photos{
+           .containe_photo{
+             padding :1.5rem  0 1.5rem 8rem;
+             .color{
+
+                .photo1{
+                    height: 6rem;
+                    width: 6rem;
+                    border-radius: 6rem;
+                    border: 0.4rem solid rgb(93, 182, 233);
+                    border-left: 0.4rem solid rgba(59, 77, 117, 0);
+                    border-bottom: 0.4rem solid rgba(59, 77, 117, 0);
+                    backdrop-filter: blur(10px) brightness(80%);
+                    background: rgba(59, 77, 117, 0.247);
+                    object-fit: contain;
+                    }
+             }
+           }
+           .name{
+            text-align: center;
+            font-size: 1rem;
+            padding-bottom: 1.5rem;
+            color: white;
+           }
+           .niveau{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem 1rem 2rem;
+            text-align: center;
+            color: white;
+           }
+        }
+        .nivjoueur{
+                .logo_info{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 1rem 2rem 1rem 2rem;
+                color: white;
+            }
+                i{
+                    font-size: 1.5rem;
+            }
+        }
+        .logo_menu{
+            text-align: center;
+            color: white;
+            .liste_logo{
+                display:flex;
+                justify-content: space-between;
+                font-size: 1.5rem;
+                backdrop-filter: blur(10px) brightness(80%);
+                background: rgba(59, 77, 117, 0.247);
+                border-bottom-right-radius: 4rem;
+                border-bottom-left-radius: 4rem;
+                .liste_one{
+                    list-style-type: none;
+                    i{
+                        font-size: 2rem;
+                        padding: 1rem 2rem 1rem 2rem;
+                    }
+                }
+
+            }
+
+        }
+    }
+
+
+
+    .image_profile{
+        width: 23.6%;
+        backdrop-filter: blur(10px) brightness(80%);
+        background: rgba(59, 77, 117, 0.534);
+        border-radius: 4rem;
+        margin-right: 8rem;
+        box-shadow: 0rem 0.5rem 1.5rem 0.5rem ;
+        z-index: 0;
+        .absolute_1{
+            width: 20rem;
+            margin-bottom: 20rem;
+            padding: 4rem;
+            .absolute_11{
+                position: absolute;
+                top: -12rem;
+                right: 0.5rem;
+                height: 55rem;
+                width: 100%;
+                object-fit: contain;
+                z-index: -1;
+            }
+        }
+        .informa_skin{
+            color: white;
+            z-index: 3;
+            backdrop-filter: blur(10px) brightness(80%);
+            background: rgba(59, 77, 117, 0.534);
+            border-radius:4rem ;
+            .ligne{
+                padding: 1rem 0 1.5rem 11rem;
+                .ligne_v{
+                    border: 0.1rem solid white;
+                    width: 4rem;
+                }
+    
+            } 
+            .texte_00{
+                text-align: center;
+                .text{
+                    font-size: 1.5rem;
+                }
+                .star{
+
+                    font-size: 0.8rem;
+                    color: boutton;
+                }
+            }
+        }
+        .paragraphe{
+            display: flex;
+            justify-content: space-between;
+            padding: 0.8rem  3.5rem 1.3rem 3.5rem;
+            color: white;
+            .premier{
+                .liste{
+                    .lettre1{
+                        color:rgb(93, 182, 233) ;
+                        list-style-type: none;
+                    }
+                    .lettre{
+                        list-style-type: none;
+                    }
+                }
+            }
+        }
+        .boutton1{
+            text-align: center;
+            padding-bottom: 1.5rem;
+            .boutton{
+                text-align: center;
+                background-color: rgb(93, 182, 233);
+                padding: 0.5rem 2rem 0.5rem 2rem;
+                border-radius: 1rem;
+                color: white;
+            }
+        }
+    }
+
+
+
+
+
+
+    .element_skin{
+        width: 23.6%;
+        backdrop-filter: blur(10px) brightness(80%);
+        background: rgba(59, 77, 117, 0.534);
+        border-radius: 4rem;
+        box-shadow: 0rem 0.5rem 1.5rem 0.5rem ;
+        .Titre11{
+            padding: 1rem 0 1rem 0;
+            margin-left: 3rem;
+            .titre_09{
+                font-size: 1.7rem;
+                color: white;
+            }
+        }
+        .recherche{
+            margin-left: 1rem;
+            .reacher{
+                border-radius: 1rem;
+                border: 0.1rem solid rgba(255, 249, 249, 0.144);
+                width: 95%;
+                height: 3rem;
+                display: flex;
+                align-items: center;
+                input{
+                    width: 90%;
+                    height: 100%;
+                    border: none;
+                    border-top-left-radius: 1rem;
+                    border-bottom-left-radius: 1rem;
+                    background-color: rgba(59, 77, 117, 0.247);
+                }
+                i{
+                    font-size: 1.5rem;
+                    padding: 0 1rem 0 1rem;
+                    color: white;
+                }
+            }
+       
+        }
+        .team_skin{
+            padding: 1rem 0 1rem 0;
+            margin-left: 1rem;
+            font-size: 1rem;
+            color: white;
+        }
+        .image_type{
+            display: flex;
+            justify-content: left;
+            gap:1rem;
+            margin-bottom: 15rem;
+            color: white;
+           .image_type1{
+            height: 13rem;
+            width: 13rem;
+            object-fit: contain;
+            .image01{
+                z-index: 0;
+                position: relative;
+                margin-bottom: 1rem;
+                height: 12rem;
+                backdrop-filter: blur(10px) brightness(80%);
+                background: rgba(59, 77, 117, 0.247);
+                border-radius: 1rem;
+                .image_imag{
+                    position: absolute;
+                    z-index:-1;
+                    height: 13rem;
+                    top: -1rem;
+                    left: 2.9rem;
+                    object-fit: contain;
+                    border-radius: 0.9rem;
+                }
+                .info_preso{
+                    z-index:1;
+                    padding: 9rem 0 0 0  ;
+                    .place{
+                        width:13rem;
+                        text-align: center;
+                        border-radius: 1rem;
+                        backdrop-filter: blur(10px) brightness(80%);
+                        background: rgba(59, 77, 117, 0.247);
+                        .Name{
+                            font-size: 1.5rem;
+                        }
+                        i{
+                            font-size: 1rem;
+                            color: rgb(93, 182, 233);
+                        }
+                    }
+                }
+
+            }
+            .image02{
+                z-index: 0;
+                position: relative;
+                height: 12rem;
+                backdrop-filter: blur(10px) brightness(80%);
+                background: rgba(59, 77, 117, 0.247);
+                border-radius: 1rem;
+                .image_imag{
+                    position: absolute;
+                    z-index:-1;
+                    height: 13rem;
+                    top: -1rem;
+                    object-fit: contain;
+                    border-radius: 0.9rem;
+                }
+                .info_preso{
+                    z-index:1;
+                    padding: 9rem 0 0 0  ;
+                    .place{
+                        width:13rem;
+                        text-align: center;
+                        border-radius: 1rem;
+                        backdrop-filter: blur(10px) brightness(80%);
+                        background: rgba(59, 77, 117, 0.247);
+                        .Name{
+                            font-size: 1.5rem;
+                        }
+                        i{
+                            font-size: 1rem;
+                            color: rgb(93, 182, 233)
+                        }
+                    }
+                }
+
+            }
+            .image03{
+                z-index: 0;
+                position: relative;
+                margin-bottom: 1rem;
+                height: 12rem;
+                backdrop-filter: blur(10px) brightness(80%);
+                background: rgba(59, 77, 117, 0.247);
+                border-radius: 1rem;
+                .image_imag{
+                    position: absolute;
+                    z-index:-1;
+                    height: 13rem;
+                    top: -1rem;
+                    left: 1.5rem;
+                    object-fit: contain;
+                    border-radius: 0.9rem;
+                }
+                .info_preso{
+                    z-index:1;
+                    padding: 9rem 0 0 0  ;
+                    .place{
+                        width:13rem;
+                        text-align: center;
+                        border-radius: 1rem;
+                        backdrop-filter: blur(10px) brightness(80%);
+                        background: rgba(59, 77, 117, 0.247);
+                        .Name{
+                            font-size: 1.5rem;
+                        }
+                        i{
+                            font-size: 1rem;
+                            color: rgb(93, 182, 233)
+                        }
+                    }
+                }
+
+            }
+            .image04{
+                z-index: 0;
+                position: relative;
+                height: 12rem;
+                backdrop-filter: blur(10px) brightness(80%);
+                background: rgba(59, 77, 117, 0.247);
+                border-radius: 1rem;
+                .image_imag{
+                    position: absolute;
+                    z-index:-1;
+                    height: 13rem;
+                    top: -1rem;
+                    object-fit: contain;
+                    border-radius: 0.9rem;
+                }
+                .info_preso{
+                    z-index:1;
+                    padding: 9rem 0 0 0  ;
+                    .place{
+                        width:13rem;
+                        text-align: center;
+                        border-radius: 1rem;
+                        backdrop-filter: blur(10px) brightness(80%);
+                        background: rgba(59, 77, 117, 0.247);
+                        .Name{
+                            font-size: 1.5rem;
+                        }
+                        i{
+                            font-size: 1rem;
+                            color: rgb(93, 182, 233)
+                        }
+                    }
+                }
+
+            }
+           }
+
+        }
+        .logo_menu{
+            text-align: center;
+            color: white;
+            .liste_logo{
+                display:flex;
+                justify-content: space-between;
+                font-size: 1.5rem;
+                backdrop-filter: blur(10px) brightness(80%);
+                background: rgba(59, 77, 117, 0.247);
+                border-bottom-right-radius: 4rem;
+                border-bottom-left-radius: 4rem;
+                .liste_one{
+                    list-style-type: none;
+                    i{
+                        font-size: 2rem;
+                        padding: 1rem 2rem 1.6rem 2rem;
+                    }
+                }
+
+            }
+
+        }
+    }
+}
