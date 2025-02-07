@@ -496,7 +496,7 @@ body {
   border-radius: 4rem;
 }
 .division_1 .image_profile .informa_skin .ligne {
-  padding: 1rem 0 1.5rem 11rem;
+  padding: 1rem 0 1.5rem 10rem;
 }
 .division_1 .image_profile .informa_skin .ligne .ligne_v {
   border: 0.1rem solid white;
@@ -531,7 +531,9 @@ body {
 }
 .division_1 .image_profile .boutton1 .boutton {
   text-align: center;
-  background-color: rgb(93, 182, 233);
+  -webkit-backdrop-filter: blur(10px) brightness(80%);
+          backdrop-filter: blur(10px) brightness(80%);
+  background: rgba(93, 182, 233, 0.664);
   padding: 0.5rem 2rem 0.5rem 2rem;
   border-radius: 1rem;
   color: white;
